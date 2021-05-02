@@ -35,23 +35,9 @@ export default function Home() {
             <h2>Twitter</h2>
             {/* <p>FI.</p> */}
           </a>
+        </div>
 
-          <a
-            href="https://twitter.com/ken_tsx"
-            //  className={styles.card}
-            className={styles.card}
-          >
-            <Image
-              className={styles.image}
-              src="/twitter.svg"
-              alt="twetter Logo"
-              // width={72} height={16}
-              width={25}
-              height={25}
-            />
-            <h2>Twitter</h2>
-            {/* <p>FI.</p> */}
-          </a>
+        <div className={styles.grid}>
           <a
             href="https://twitter.com/ken_tsx"
             //  className={styles.card}
@@ -101,7 +87,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Ken
+          Powered by{" "}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
         </a>
       </footer>
     </div>

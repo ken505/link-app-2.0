@@ -102,6 +102,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by Ken
+          <span className={styles.logo}>
+          </span>
         </a>
       </footer>
     </div>

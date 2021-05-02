@@ -35,7 +35,8 @@ export default function Home() {
             <h2>Twitter</h2>
             {/* <p>FI.</p> */}
           </a>
-
+          </div>
+        <div className={styles.grid}>
           <a
             href="https://twitter.com/ken_tsx"
             //  className={styles.card}
@@ -52,30 +53,14 @@ export default function Home() {
             <h2>Twitter</h2>
             {/* <p>FI.</p> */}
           </a>
-          <a
-            href="https://twitter.com/ken_tsx"
-            //  className={styles.card}
-            className={styles.card}
-          >
-            <Image
-              className={styles.image}
-              src="/twitter.svg"
-              alt="twetter Logo"
-              // width={72} height={16}
-              width={25}
-              height={25}
-            />
-            <h2>Twitter</h2>
-            {/* <p>FI.</p> */}
-          </a>
-        </div>
+          </div>
 
-        {/* <a href="https://nextjs.org/learn" className={styles.card}>
+          {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a> */}
 
-        {/* <a
+          {/* <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
@@ -83,7 +68,7 @@ export default function Home() {
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a> */}
 
-        {/* <a
+          {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             // className={styles.card}
           >
@@ -101,7 +86,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Ken
+          Powered by{" "}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
         </a>
       </footer>
     </div>
