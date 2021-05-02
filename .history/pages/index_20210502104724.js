@@ -12,11 +12,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Ken's link ! 😸</h1>
+        <h1 className={styles.title}>Welcome to Ken's link ! 😻</h1>
 
-        {/* <p className={styles.description}>
-          Hi, I'm a Developer, designer, photographer, and musician 🧑🏻‍💻
-        </p> */}
+        <p className={styles.description}>
+          Get started by editing{" "}
+          <code className={styles.code}>pages/index.js</code>
+        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

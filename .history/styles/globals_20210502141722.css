@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #ffff;
   text-shadow: 3px 3px 3px #808080;
-  /* 横px・縦px・ぼかしpx・影の色#808080 */
+  /* 横px・縦px・ぼかし3px・影の色#808080 */
   background-image: linear-gradient(
     to right top,
     #d16ba5,

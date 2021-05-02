@@ -14,9 +14,10 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Ken's link ! 😸</h1>
 
-        {/* <p className={styles.description}>
-          Hi, I'm a Developer, designer, photographer, and musician 🧑🏻‍💻
-        </p> */}
+        <p className={styles.description}>
+        Hi, I'm Developer, designer, photographer, and musician 🧑🏻‍💻
+
+        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

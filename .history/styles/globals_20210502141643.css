@@ -5,8 +5,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #ffff;
-  text-shadow: 3px 3px 3px #808080;
-  /* 横px・縦px・ぼかしpx・影の色#808080 */
+  text-shadow: 3px 3px 0 #808080;
+  /* 横に1px・縦に2px・ぼかし3px・影の色#808080 */
   background-image: linear-gradient(
     to right top,
     #d16ba5,

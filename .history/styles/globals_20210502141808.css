@@ -25,7 +25,8 @@ body {
 }
 
 a {
-  color: inherit;
+  /* color: inherit; */
+  color: #ffff;
   text-decoration: none;
 }
 
