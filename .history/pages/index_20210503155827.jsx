@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <h1 className={styles.title}>Welcome to Ken's link ! 😸</h1>
       <Links />
       </main>
       <Footer />

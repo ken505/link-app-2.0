@@ -10,7 +10,7 @@ export function Footer() {
       > */}
         Powered by Ken
         {/* <img src="/vercel.svg" alt="Vercel Logo" className={classese.logo} /> */}
-      {/* </a> */}
+      </a>
     </footer>
   );
 }

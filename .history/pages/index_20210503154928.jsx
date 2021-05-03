@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Footer } from "../components/Footer";
-import { Links } from "../components/Links";
+import { Footer } from "../src/components/Footer";
+import { Links } from "../src/components/Links";
 
 export default function Home() {
   return (
@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <h1 className={styles.title}>Welcome to Ken's link ! 😸</h1>
       <Links />
       </main>
       <Footer />
