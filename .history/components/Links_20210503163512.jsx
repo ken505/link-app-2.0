@@ -9,10 +9,10 @@ export function Links() {
           className={styles.image}
           src="/twitter.svg"
           alt="twetter Logo"
-          width={22}
-          height={22}
+          width={25}
+          height={25}
           // Image を使って public の svg を呼びに行ってるよ。
-          // 色はとりあえず svg の fill に指定してる。
+          // 色はとりあえず svg の fill に
         />
         <h2>Twitter</h2>
       </a>
@@ -24,7 +24,7 @@ export function Links() {
           width={25}
           height={25}
         />
-        <h2>Instagram</h2>
+        <h2>Twitter</h2>
       </a>
     </div>
   );

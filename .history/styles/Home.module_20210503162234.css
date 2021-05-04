@@ -131,6 +131,16 @@
   line-height: 1.5;
 } */
 
+.instagram-logo {
+  path {
+    fill: #000;
+  }
+  circle: #fff;
+  .logo {
+    fill: #333;
+  }
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;

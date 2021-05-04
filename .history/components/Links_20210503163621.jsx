@@ -24,7 +24,7 @@ export function Links() {
           width={25}
           height={25}
         />
-        <h2>Instagram</h2>
+        <h2>Instaglam</h2>
       </a>
     </div>
   );

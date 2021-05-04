@@ -1,0 +1,9 @@
+.instagram-logo {
+  path {
+    fill: #000;
+  }
+  circle: #fff;
+  .logo {
+    fill: #333;
+  }
+}
