@@ -12,7 +12,7 @@ export function Links() {
           width={21}
           height={21}
         /> */}
-        <h2 className={classes.card}> Twitter</h2>
+        <a className={classes.card}> Twitter</a>
       </Link>
       <Link href="https://www.instagram.com/ken.tsx/">
         {/* <Image

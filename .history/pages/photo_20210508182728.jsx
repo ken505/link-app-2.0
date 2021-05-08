@@ -1,6 +1,5 @@
-import Link from "next/link";
 import classes from "../styles/Home.module.css";
-import { Footer } from "../components/Footer";
+// import { Footer } from "../components/Footer";
 import { Tab } from "../components/Tab";
 import { Headline } from "../components/Headline";
 // import { Main } from "../components/Main";
@@ -12,8 +11,8 @@ export default function Home() {
   return (
     <div className={classes.container}>
       <Tab title="About Ken" />
-      <Headline title="About Ken 😺" />
-      <Link href="/" >
+      <Headline title="Photo 😺" />
+      <a href="/" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -21,9 +20,8 @@ export default function Home() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Back</h2>
-      </Link>
-      <Footer />
+        <h2>Back</h2>
+      </a>
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Home() {
     <div className={classes.container}>
       <Tab title="About Ken" />
       <Headline title="About Ken 😺" />
-      <Link href="/" >
+      <Link href="/" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -21,8 +21,8 @@ export default function Home() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Back</h2>
-      </Link>
+        <h2>Back</h2>
+      </a>
       <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import classes from "../styles/Home.module.css";
+import classes from "./Headline.module.css";
 import { Footer } from "../components/Footer";
 import { Tab } from "../components/Tab";
 import { Headline } from "../components/Headline";

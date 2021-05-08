@@ -1,10 +1,11 @@
 // import Image from "next/Image";
 import classes from "./Links.module.css";
-import Link from "next/link";
+import Link from 
 export function Links() {
   return (
     <div className={classes.grid}>
-      <Link href="https://twitter.com/ken_tsx">
+    <Link></Link>
+      <a href="https://twitter.com/ken_tsx" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/twitter.svg"
@@ -12,9 +13,9 @@ export function Links() {
           width={21}
           height={21}
         /> */}
-        <h2 className={classes.card}> Twitter</h2>
-      </Link>
-      <Link href="https://www.instagram.com/ken.tsx/">
+        <h2>Twitter</h2>
+      </a>
+      <a href="https://www.instagram.com/ken.tsx/" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -22,9 +23,9 @@ export function Links() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}> Instagram</h2>
-      </Link>
-      <Link href="/about">
+        <h2>Instagram</h2>
+      </a>
+      <a href="/about" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -32,9 +33,9 @@ export function Links() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>About Ken</h2>
-      </Link>
-      <Link href="/photo">
+        <h2>About Ken</h2>
+      </a>
+      <a href="/photo" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -42,8 +43,8 @@ export function Links() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Photo</h2>
-      </Link>
+        <h2>Photo</h2>
+      </a>
     </div>
   );
 }

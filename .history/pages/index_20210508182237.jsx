@@ -7,7 +7,7 @@ import { Main } from "../components/Main";
 
 export default function Home() {
   return (
-    <div className={classes.container}>
+    <div classe={styles.container}>
       <Tab title="Ken's links" />
       {/* <Tab title="Ken's links" name="link" content="Link collection"/> */}
 

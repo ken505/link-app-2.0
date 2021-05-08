@@ -21,7 +21,7 @@ export default function Home() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Back</h2>
+        <h2>Back</h2>
       </Link>
       <Footer />
     </div>

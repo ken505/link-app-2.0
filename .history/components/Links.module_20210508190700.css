@@ -43,7 +43,7 @@
 .card:active {
   color: rgb(255, 212, 219);
   border-color: rgb(255, 212, 219);
-  cursor: pointer;
+  
 }
 
 /* .card h2 {

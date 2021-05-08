@@ -1,4 +1,3 @@
-import Link from "next/link";
 import classes from "../styles/Home.module.css";
 import { Footer } from "../components/Footer";
 import { Tab } from "../components/Tab";
@@ -13,7 +12,8 @@ export default function Home() {
     <div className={classes.container}>
       <Tab title="About Ken" />
       <Headline title="About Ken 😺" />
-      <Link href="/" >
+      <Lin
+      <a href="/" className={classes.card}>
         {/* <Image
           className={classes.image}
           src="/insta.svg"
@@ -21,8 +21,8 @@ export default function Home() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Back</h2>
-      </Link>
+        <h2>Back</h2>
+      </a>
       <Footer />
     </div>
   );

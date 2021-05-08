@@ -1,5 +1,4 @@
-import Link from "next/link";
-import classes from "../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import { Footer } from "../components/Footer";
 import { Tab } from "../components/Tab";
 import { Headline } from "../components/Headline";
@@ -10,19 +9,10 @@ import { Headline } from "../components/Headline";
 
 export default function Home() {
   return (
-    <div className={classes.container}>
+    <div className={styles.container}>
       <Tab title="About Ken" />
-      <Headline title="About Ken 😺" />
-      <Link href="/" >
-        {/* <Image
-          className={classes.image}
-          src="/insta.svg"
-          alt="instaglam Logo"
-          width={22}
-          height={22}
-        /> */}
-        <h2 className={classes.card}>Back</h2>
-      </Link>
+      <Headline title="About Ken 😸" />
+      
       <Footer />
     </div>
   );

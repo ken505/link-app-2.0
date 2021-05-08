@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Links() {
   return (
     <div className={classes.grid}>
-      <Link href="https://twitter.com/ken_tsx">
+      <Link href="https://twitter.com/ken_tsx" >
         {/* <Image
           className={classes.image}
           src="/twitter.svg"
@@ -22,7 +22,7 @@ export function Links() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}> Instagram</h2>
+        <h2> Instagram</h2>
       </Link>
       <Link href="/about">
         {/* <Image

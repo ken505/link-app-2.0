@@ -1,4 +1,4 @@
-import classes from "../styles/Home.module.css";
+import classe from "../styles/Home.module.css";
 import { Tab } from "../components/Tab";
 import { Main } from "../components/Main";
 // import Head from "next/head";
@@ -7,7 +7,7 @@ import { Main } from "../components/Main";
 
 export default function Home() {
   return (
-    <div className={classes.container}>
+    <div className={styles.container}>
       <Tab title="Ken's links" />
       {/* <Tab title="Ken's links" name="link" content="Link collection"/> */}
 

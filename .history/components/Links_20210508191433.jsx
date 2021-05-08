@@ -42,7 +42,7 @@ export function Links() {
           width={22}
           height={22}
         /> */}
-        <h2 className={classes.card}>Photo</h2>
+        <a className={classes.card}>Photo</a>
       </Link>
     </div>
   );
