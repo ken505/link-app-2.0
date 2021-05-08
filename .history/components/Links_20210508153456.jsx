@@ -15,13 +15,13 @@ export function Links() {
         <h2>Twitter</h2>
       </a>
       <a href="https://www.instagram.com/ken.tsx/" className={styles.card}>
-        {/* <Image
+        <Image
           className={styles.image}
           src="/insta.svg"
           alt="instaglam Logo"
           width={22}
           height={22}
-        /> */}
+        />
         <h2>Instagram</h2>
       </a>
     </div>
