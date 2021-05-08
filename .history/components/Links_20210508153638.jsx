@@ -5,13 +5,13 @@ export function Links() {
   return (
     <div className={styles.grid}>
       <a href="https://twitter.com/ken_tsx" className={styles.card}>
-        {/* <Image
+        <Image
           className={styles.image}
           src="/twitter.svg"
           alt="twitter Logo"
           width={21}
           height={21}
-        /> */}
+        />
         <h2>Twitter</h2>
       </a>
       <a href="https://www.instagram.com/ken.tsx/" className={styles.card}>
