@@ -4,10 +4,7 @@ export function Tab(props) {
   return (
     <Head>
       <title>{props.title}</title>
-      {/* <meta>
-        {props.name}
-        {props.content}
-      </meta> */}
+      <meta></meta> name="Link" content="Link collection"
       {/* <meta name="Link" content="Link collection" /> */}
 
       {/* meta tag に props を持たせるとブラウザに怒られる。 */}
