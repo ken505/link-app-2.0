@@ -5,12 +5,12 @@ export function Links() {
   return (
     <div className={styles.grid}>
       <a href="https://twitter.com/ken_tsx" className={styles.card}>
-        {/* <Image
+        <Image
           className={styles.image}
           src="/twitter.svg"
           alt="twitter Logo"
           width={21}
-          height={21} */}
+          height={21}
           // Image を使って public の svg を呼びに行ってるよ。
           // 色はとりあえず svg の fill に指定してる。
         />
