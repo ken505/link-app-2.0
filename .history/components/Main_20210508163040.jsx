@@ -1,4 +1,4 @@
-import classes from "./Main.module.css";
+import classes from "./styles/Home.module.css";
 import { Headline } from "../components/Headline";
 import { Links } from "../components/Links";
 // import Head from "next/head";

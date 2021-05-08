@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Tab title="About Ken" />
-      <Headline title="About Ken 😸" />
+      <Headline />
       <Footer />
     </div>
   );

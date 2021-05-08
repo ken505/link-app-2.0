@@ -1,4 +1,4 @@
-import classes from "./Main.module.css";
+import classes from "../styles/Home.module.css";
 import { Headline } from "../components/Headline";
 import { Links } from "../components/Links";
 // import Head from "next/head";
@@ -6,7 +6,7 @@ import { Links } from "../components/Links";
 
 export function Main() {
   return (
-    <main className={classes.main}>
+    <main className={class.main}>
       <Headline title="Welcome to Ken's link 😸" />
       <Links />
     </main>

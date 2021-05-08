@@ -1,12 +1,12 @@
 // import Image from "next/Image";
-import classes from "./Links.module.css";
+import styles from "../styles/Home.module.css";
 
 export function Links() {
   return (
-    <div className={classes.grid}>
-      <a href="https://twitter.com/ken_tsx" className={classes.card}>
+    <div className={styles.grid}>
+      <a href="https://twitter.com/ken_tsx" className={styles.card}>
         {/* <Image
-          className={classes.image}
+          className={styles.image}
           src="/twitter.svg"
           alt="twitter Logo"
           width={21}
@@ -14,9 +14,9 @@ export function Links() {
         /> */}
         <h2>Twitter</h2>
       </a>
-      <a href="https://www.instagram.com/ken.tsx/" className={classes.card}>
+      <a href="https://www.instagram.com/ken.tsx/" className={styles.card}>
         {/* <Image
-          className={classes.image}
+          className={styles.image}
           src="/insta.svg"
           alt="instaglam Logo"
           width={22}
@@ -31,4 +31,4 @@ export function Links() {
 // Image の補足
 // Image を使って public の svg を呼びに行ってるよ。
 // 色はとりあえず svg の fill に指定してる。
-// Image を使うとデプロイできないので一旦保留。なんで？
+// Image を
