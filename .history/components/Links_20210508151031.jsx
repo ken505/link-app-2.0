@@ -5,7 +5,7 @@ export function Links() {
   return (
     <div className={styles.grid}>
       <a href="https://twitter.com/ken_tsx" className={styles.card}>
-        <image
+        <Image
           className={styles.image}
           src="/twitter.svg"
           alt="twitter Logo"
