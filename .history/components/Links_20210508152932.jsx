@@ -11,6 +11,8 @@ export function Links() {
           alt="twitter Logo"
           width={21}
           height={21}
+
+
         />
         <h2>Twitter</h2>
       </a>
@@ -28,6 +30,6 @@ export function Links() {
   );
 }
 
-// Image の補足
+// Image の細く
 // Image を使って public の svg を呼びに行ってるよ。
 // 色はとりあえず svg の fill に指定してる。 👈このコメントがエラーの原因？
