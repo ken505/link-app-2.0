@@ -1,4 +1,4 @@
-import Image from "next/Image";
+// import Image from "next/Image";
 import styles from "../styles/Home.module.css";
 
 export function Links() {
@@ -13,19 +13,19 @@ export function Links() {
           height={21}
 
           {/* // Image を使って public の svg を呼びに行ってるよ。
-          // 色はとりあえず svg の fill に指定してる。 👈このコメントがエラーの原因？*/}
+          // 色はとりあえず svg の fill に指定してる。 */}
 
         />
         <h2>Twitter</h2>
       </a>
       <a href="https://www.instagram.com/ken.tsx/" className={styles.card}>
-        <Image
+        {/* <Image
           className={styles.image}
           src="/insta.svg"
           alt="instaglam Logo"
           width={22}
           height={22}
-        />
+        /> */}
         <h2>Instagram</h2>
       </a>
     </div>
