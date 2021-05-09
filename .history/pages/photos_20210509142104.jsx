@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/Image";
 import classes from "../styles/Home.module.css";
 import { Tab } from "../components/Tab";
 import { Headline } from "../components/Headline";
@@ -15,16 +15,23 @@ export default function Home() {
       <Tab title="About Ken" />
       <Headline title="Photos 😽" />
       <Link href="/">
+        {/* <Image
+          className={classes.image}
+          src="/insta.svg"
+          alt="instaglam Logo"
+          width={22}
+          height={22}
+        /> */}
         <h2 className={classes.card}>Back</h2>
       </Link>
-      <Image
+      {/* <Image
         src="/images/photo2.jpg"
         alt="Store Manager Rask's Photo"
         width={500}
         height={500}
         // priority
         // className="next-image"
-      />
+      /> */}
       {/* <Image
         src="/images/photo.jpg"
         alt="Assistant Store Manager Sakura's Photo"
