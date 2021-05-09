@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import Image from "next/Image";
+import Image from "next/Image";
 import classes from "../styles/Home.module.css";
 import { Tab } from "../components/Tab";
 import { Headline } from "../components/Headline";
