@@ -95,3 +95,13 @@ export function Links() {
 // Image の補足
 // Image を使って public の svg を呼びに行ってるよ。
 // 色はとりあえず svg の fill に指定してる。
+
+{
+  /* <Image
+className={classes.image}
+src="/insta.svg"
+alt="instaglam Logo"
+width={22}
+height={22}
+/> */
+}
