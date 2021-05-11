@@ -1,13 +1,13 @@
 import Image from "next/image";
 import classes from "./Links.module.css";
 import Link from "next/link";
+// import { Twittersvg } from "./Twittersvg";
 
 const ITEMS = [
   {
     href: "https://twitter.com/ken_tsx",
     title: "Twitter",
     src: "/twitter.svg",
-    alt: "twitter Logo",
     width: 19,
     height: 19,
   },
@@ -15,17 +15,15 @@ const ITEMS = [
     href: "https://www.instagram.com/ken.tsx/",
     title: "Instagram",
     src: "/insta.svg",
-    alt: "instagram Logo",
     width: 19,
     height: 19,
     // description: "Account for cat photos",
-    // pタグに縦並びの CSS をつけたら使えるよ。
+    // p
   },
   {
     href: "https://zenn.dev/ken505",
     title: "Zenn",
     src: "/zenn.svg",
-    alt: "zenn Logo",
     width: 19,
     height: 19,
   },
@@ -33,7 +31,6 @@ const ITEMS = [
     href: "https://note.com/ken505",
     title: "note",
     src: "/note.svg",
-    alt: "note Logo",
     width: 19,
     height: 19,
   },
@@ -41,7 +38,6 @@ const ITEMS = [
     href: "https://github.com/ken505",
     title: "Github",
     src: "/github.svg",
-    alt: "git hub Logo",
     width: 19,
     height: 19,
   },
@@ -73,7 +69,7 @@ export function Links() {
                 <Image
                   className={classes.image}
                   src={item.src}
-                  alt={item.alt}
+                  // alt="twitter Logo"
                   width={item.width}
                   height={item.height}
                 />
@@ -81,7 +77,7 @@ export function Links() {
               <h2>{item.title}</h2>
 
               {/* 👇説明が必要ならどうぞ */}
-              {/* <p>{item.description}</p> */}
+              <p>{item.description}</p>
               
             </a>
           </Link>

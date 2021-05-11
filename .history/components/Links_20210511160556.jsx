@@ -41,7 +41,7 @@ const ITEMS = [
     href: "https://github.com/ken505",
     title: "Github",
     src: "/github.svg",
-    alt: "git hub Logo",
+    alt="git hub Logo",
     width: 19,
     height: 19,
   },

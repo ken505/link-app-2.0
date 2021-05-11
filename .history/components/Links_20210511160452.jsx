@@ -7,7 +7,7 @@ const ITEMS = [
     href: "https://twitter.com/ken_tsx",
     title: "Twitter",
     src: "/twitter.svg",
-    alt: "twitter Logo",
+    alt="twitter Logo",
     width: 19,
     height: 19,
   },
@@ -15,7 +15,7 @@ const ITEMS = [
     href: "https://www.instagram.com/ken.tsx/",
     title: "Instagram",
     src: "/insta.svg",
-    alt: "instagram Logo",
+    alt="instagram Logo",
     width: 19,
     height: 19,
     // description: "Account for cat photos",
@@ -25,7 +25,7 @@ const ITEMS = [
     href: "https://zenn.dev/ken505",
     title: "Zenn",
     src: "/zenn.svg",
-    alt: "zenn Logo",
+    alt="zenn Logo",
     width: 19,
     height: 19,
   },
@@ -33,7 +33,7 @@ const ITEMS = [
     href: "https://note.com/ken505",
     title: "note",
     src: "/note.svg",
-    alt: "note Logo",
+    alt="note Logo",
     width: 19,
     height: 19,
   },
@@ -41,7 +41,6 @@ const ITEMS = [
     href: "https://github.com/ken505",
     title: "Github",
     src: "/github.svg",
-    alt: "git hub Logo",
     width: 19,
     height: 19,
   },
@@ -73,7 +72,7 @@ export function Links() {
                 <Image
                   className={classes.image}
                   src={item.src}
-                  alt={item.alt}
+                  alt="twitter Logo"
                   width={item.width}
                   height={item.height}
                 />
