@@ -1,0 +1,71 @@
+html,
+body {
+  user-select: none;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #ffff;
+  /* color: rgb(80, 80, 80); */
+  text-shadow: 3px 3px 3px #b8b6b6;
+  /* 横px・縦px・ぼかしpx・影の色#808080 */
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  /* background-image: linear-gradient(
+    to right top,
+    #e96087,
+    #e15793,
+    #d550a1,
+    #c44eae,
+    #ad4fbc,
+    #9648b8,
+    #7e42b3,
+    #643dae,
+    #4e2d97,
+    #381d80,
+    #210d6a,
+    #030055
+  ); */
+  /* background-image: linear-gradient(
+    to right top,
+    #8cff7d,
+    #7bffa6,
+    #79ffc9,
+    #87ffe3,
+    #a3fff4,
+    #abfff3,
+    #b2fff2,
+    #b9fff1,
+    #b4ffde,
+    #bfffc2,
+    #d8ffa2,
+    #fafd83
+  ); */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.darkmodeicon {
+  margin: 30px;
+  color: pink;
+}
+
+* {
+  box-sizing: border-box;
+}
