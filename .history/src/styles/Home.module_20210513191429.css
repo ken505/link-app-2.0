@@ -1,0 +1,16 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  /* margin: auto; */
+  /* padding: 0 0.5rem; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+@media screen and (min-width: 480px) {
+  /*画面サイズが480pxからはここを読み込む*/
+  .container {
+    text-align: center;
+  }
+}

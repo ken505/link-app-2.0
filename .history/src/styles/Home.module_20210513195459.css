@@ -1,0 +1,20 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  /* margin: auto; */
+  /* padding: 0 0.5rem; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+.backtolinks {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+.IoIosArrowBack {
+  display: inline-block;
+  vertical-align: middle;
+}
