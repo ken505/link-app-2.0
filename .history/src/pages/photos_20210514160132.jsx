@@ -178,8 +178,6 @@ export default function Home() {
         height={144}
       />
       <p>Burio</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Ikura.jpg"
         alt="Ikura's photo "
@@ -187,8 +185,6 @@ export default function Home() {
         height={144}
       />
       <p>Ikura</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Meron.jpg"
         alt=" Meron's photo"
@@ -196,7 +192,6 @@ export default function Home() {
         height={144}
       />
       <p>Meron</p>
-      </catImage>
       </imageArea>
     </div>
   );

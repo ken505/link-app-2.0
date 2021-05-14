@@ -151,8 +151,6 @@ export default function Home() {
         height={144}
       />
       <p>Sagawa Toko</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Komari.jpg"
         alt="Komari's photo "
@@ -160,8 +158,6 @@ export default function Home() {
         height={144}
       />
       <p>Komari</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Mau.jpg"
         alt=" Mau's photo"
@@ -169,8 +165,6 @@ export default function Home() {
         height={144}
       />
       <p>Mau</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Burio.jpg"
         alt="Burio's photo "
@@ -178,8 +172,6 @@ export default function Home() {
         height={144}
       />
       <p>Burio</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Ikura.jpg"
         alt="Ikura's photo "
@@ -187,8 +179,6 @@ export default function Home() {
         height={144}
       />
       <p>Ikura</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Meron.jpg"
         alt=" Meron's photo"
@@ -196,7 +186,6 @@ export default function Home() {
         height={144}
       />
       <p>Meron</p>
-      </catImage>
       </imageArea>
     </div>
   );

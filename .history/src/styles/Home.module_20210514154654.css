@@ -16,13 +16,11 @@
 .IoIosArrowBack {
   display: inline-block;
 }
-
-.photoImage catImage {
-  margin: 2rem 0;
+.photoImage {
   display: block;
   text-align: center;
 }
 
 .catName {
-  margin: 0;
+  margin: 0.5rem ;
 }

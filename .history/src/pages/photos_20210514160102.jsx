@@ -77,8 +77,6 @@ export default function Home() {
         height={144}
       />
       <p>Yuzu</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Kosen.jpg"
         alt=" Kosen's photo"
@@ -86,8 +84,6 @@ export default function Home() {
         height={144}
       />
       <p>Kosen</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Satuki.jpg"
         alt=" Satuki's photo"
@@ -95,8 +91,6 @@ export default function Home() {
         height={144}
       />
       <p>Satuki</p>
-      </catImage>
-      <catImage>
       <Image src="/images/En.jpg" alt=" En's photo" width={256} height={144} />
       <p>En</p>
       <Image
@@ -106,8 +100,6 @@ export default function Home() {
         height={144}
       />
       <p>Susisu</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Huku.jpg"
         alt="Huku's photo "
@@ -115,8 +107,6 @@ export default function Home() {
         height={144}
       />
       <p>Huku</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Sanbo.jpg"
         alt="Sanbo's photo "
@@ -124,8 +114,6 @@ export default function Home() {
         height={144}
       />
       <p>Sanbo</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Tarao.jpg"
         alt=" Tarao's photo"
@@ -133,8 +121,6 @@ export default function Home() {
         height={144}
       />
       <p>Tarao</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Mikan.jpg"
         alt="Mikan's photo "
@@ -142,8 +128,6 @@ export default function Home() {
         height={144}
       />
       <p>Mikan</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Sagawatoko.jpg"
         alt="Sagawa Toko's photo "
@@ -151,8 +135,6 @@ export default function Home() {
         height={144}
       />
       <p>Sagawa Toko</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Komari.jpg"
         alt="Komari's photo "
@@ -160,8 +142,6 @@ export default function Home() {
         height={144}
       />
       <p>Komari</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Mau.jpg"
         alt=" Mau's photo"
@@ -169,8 +149,6 @@ export default function Home() {
         height={144}
       />
       <p>Mau</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Burio.jpg"
         alt="Burio's photo "
@@ -178,8 +156,6 @@ export default function Home() {
         height={144}
       />
       <p>Burio</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Ikura.jpg"
         alt="Ikura's photo "
@@ -187,8 +163,6 @@ export default function Home() {
         height={144}
       />
       <p>Ikura</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Meron.jpg"
         alt=" Meron's photo"
@@ -196,7 +170,6 @@ export default function Home() {
         height={144}
       />
       <p>Meron</p>
-      </catImage>
       </imageArea>
     </div>
   );

@@ -16,9 +16,7 @@
 .IoIosArrowBack {
   display: inline-block;
 }
-
-.photoImage catImage {
-  margin: 2rem 0;
+.photoImage {
   display: block;
   text-align: center;
 }

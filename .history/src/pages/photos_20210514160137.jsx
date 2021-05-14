@@ -196,7 +196,6 @@ export default function Home() {
         height={144}
       />
       <p>Meron</p>
-      </catImage>
       </imageArea>
     </div>
   );

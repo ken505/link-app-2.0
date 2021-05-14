@@ -21,8 +21,7 @@ export default function Home() {
       {/* 配置は grid 折り返し的な */}
       {/* スマホサイズで一列固定でいこうかな */}
 
-      <imageArea className={classes.photoImage}>
-      <catImage>
+      <div className={classes.photoImage}>
         <Image
           src="/images/Rask.jpg"
           alt="Store Manager Rask's photo"
@@ -30,9 +29,8 @@ export default function Home() {
           height={144}
         />
         <p className={classes.catName}>Store Manager Rask</p>
-      </catImage>
-      <catImage>
-
+      </div>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Sakura.jpg"
         alt="Assistant Store Manager Sakura's photo"
@@ -40,9 +38,7 @@ export default function Home() {
         height={144}
       />
       <p>Assistant Store Manager Sakura</p>
-      </catImage>
-      <catImage>
-
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Yukichi.jpg"
         alt=" Sales Manager Yukichi's photo "
@@ -50,8 +46,7 @@ export default function Home() {
         height={144}
       />
       <p>Sales Manager Yukichi</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Kai.jpg"
         alt=" Kai's photo "
@@ -59,8 +54,7 @@ export default function Home() {
         height={144}
       />
       <p>Kai</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Sumire.jpg"
         alt=" Sumire's photo "
@@ -68,8 +62,7 @@ export default function Home() {
         height={144}
       />
       <p>Sumire</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Yuzu.jpg"
         alt="Yuzu's photo "
@@ -77,8 +70,7 @@ export default function Home() {
         height={144}
       />
       <p>Yuzu</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Kosen.jpg"
         alt=" Kosen's photo"
@@ -86,8 +78,7 @@ export default function Home() {
         height={144}
       />
       <p>Kosen</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Satuki.jpg"
         alt=" Satuki's photo"
@@ -95,10 +86,10 @@ export default function Home() {
         height={144}
       />
       <p>Satuki</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image src="/images/En.jpg" alt=" En's photo" width={256} height={144} />
       <p>En</p>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Susisu.jpg"
         alt=" Susisu's photo"
@@ -106,8 +97,7 @@ export default function Home() {
         height={144}
       />
       <p>Susisu</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Huku.jpg"
         alt="Huku's photo "
@@ -115,8 +105,7 @@ export default function Home() {
         height={144}
       />
       <p>Huku</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Sanbo.jpg"
         alt="Sanbo's photo "
@@ -124,8 +113,7 @@ export default function Home() {
         height={144}
       />
       <p>Sanbo</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Tarao.jpg"
         alt=" Tarao's photo"
@@ -133,8 +121,7 @@ export default function Home() {
         height={144}
       />
       <p>Tarao</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Mikan.jpg"
         alt="Mikan's photo "
@@ -142,8 +129,7 @@ export default function Home() {
         height={144}
       />
       <p>Mikan</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Sagawatoko.jpg"
         alt="Sagawa Toko's photo "
@@ -151,8 +137,7 @@ export default function Home() {
         height={144}
       />
       <p>Sagawa Toko</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Komari.jpg"
         alt="Komari's photo "
@@ -160,8 +145,7 @@ export default function Home() {
         height={144}
       />
       <p>Komari</p>
-      </catImage>
-      <catImage>
+      <div className={classes.photoImage}></div>
       <Image
         src="/images/Mau.jpg"
         alt=" Mau's photo"
@@ -169,8 +153,6 @@ export default function Home() {
         height={144}
       />
       <p>Mau</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Burio.jpg"
         alt="Burio's photo "
@@ -178,8 +160,6 @@ export default function Home() {
         height={144}
       />
       <p>Burio</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Ikura.jpg"
         alt="Ikura's photo "
@@ -187,8 +167,6 @@ export default function Home() {
         height={144}
       />
       <p>Ikura</p>
-      </catImage>
-      <catImage>
       <Image
         src="/images/Meron.jpg"
         alt=" Meron's photo"
@@ -196,8 +174,6 @@ export default function Home() {
         height={144}
       />
       <p>Meron</p>
-      </catImage>
-      </imageArea>
     </div>
   );
 }
