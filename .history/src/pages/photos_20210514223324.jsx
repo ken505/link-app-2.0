@@ -53,7 +53,7 @@ export default function Home() {
                 />
               ) : null}
               {item.description ? (
-                <p className={classes.catName}>{item.description}</p>
+                <p className={classes.cat}>{item.description}</p>
               ) : null}
             </div>
           );

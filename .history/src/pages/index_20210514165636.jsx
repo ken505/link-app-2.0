@@ -8,6 +8,12 @@ export default function Home() {
       <Tab title="Ken's links" />
       <Main />
     </div>
+    <Image
+          src="/images/Meron.jpg"
+          alt=" Meron's photo"
+          width={256}
+          height={144}
+        />
   );
 }
 

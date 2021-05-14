@@ -12,19 +12,19 @@ const ITEMS = [
     description: "Store Manager Rask",
   },
   {
-    src: "/images/Sakura.jpg",
-    alt: "Assistant Store Manager Sakura's photo",
-    description: "Assistant Store Manager Sakura",
+    src:"/images/Sakura.jpg",
+    alt:"Assistant Store Manager Sakura's photo",
+    description:"Assistant Store Manager Sakura",
   },
   {
-    src: "/images/Yukichi.jpg",
-    alt: " Sales Manager Yukichi's photo ",
-    description: " Sales Manager Yukichi ",
+    src:"/images/Yukichi.jpg",
+    alt:" Sales Manager Yukichi's photo ",
+    description:" Sales Manager Yukichi ",
   },
   {
-    src: "/images/.jpg",
-    alt: " 's photo ",
-    description: "  ",
+    src:"/images/.jpg",
+    alt:" 's photo ",
+    description:"  ",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function Home() {
                 />
               ) : null}
               {item.description ? (
-                <p className={classes.catName}>{item.description}</p>
+                <p className={classes.description}>{item.description}</p>
               ) : null}
             </div>
           );
@@ -62,6 +62,7 @@ export default function Home() {
       {/* 写真は width300 * height169 */}
       {/* 配置は grid 折り返し的な */}
       {/* スマホサイズで一列固定でいこうかな */}
+     
     </div>
   );
 }

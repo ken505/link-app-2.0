@@ -8,6 +8,7 @@ export default function Home() {
       <Tab title="Ken's links" />
       <Main />
     </div>
+    
   );
 }
 

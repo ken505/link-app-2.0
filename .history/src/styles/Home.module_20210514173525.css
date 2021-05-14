@@ -19,10 +19,10 @@
 
 .catImage {
   display: block;
+  margin
   margin: 2rem 0;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
+  /* display: none; */
 }
 
 .catName {

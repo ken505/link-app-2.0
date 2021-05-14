@@ -7,6 +7,11 @@ export default function Home() {
     <div className={classes.container}>
       <Tab title="Ken's links" />
       <Main />
+        <img
+          className={classes.catImage}
+          src="/images/Meron.jpg"
+          alt=" Meron's photo"
+        />
     </div>
   );
 }

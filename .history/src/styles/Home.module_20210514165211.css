@@ -17,11 +17,9 @@
   display: inline-block;
 }
 
-.catImage {
-  display: block;
+.catImage div {
   margin: 2rem 0;
-  margin-right: auto;
-  margin-left: auto;
+  display: block;
   text-align: center;
 }
 

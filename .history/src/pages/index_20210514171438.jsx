@@ -1,12 +1,20 @@
 import classes from "../styles/Home.module.css";
 import { Tab } from "src/components/Tab/Tab";
 import { Main } from "src/components/Main/Main";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className={classes.container}>
       <Tab title="Ken's links" />
       <Main />
+        <Image
+          src="/images/Meron.jpg"
+          alt=" Meron's photo"
+          width={256}
+          height={144}
+          className={classes.catImage}
+        ></Image>
     </div>
   );
 }
