@@ -1,0 +1,31 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  /* margin: auto; */
+  /* padding: 0 0.5rem; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+.backtolinks {
+  mar
+  text-align: center;
+  cursor: pointer;
+}
+
+.IoIosArrowBack {
+  display: inline-block;
+}
+
+.catImage {
+  display: block;
+  margin: 2rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.catName {
+  margin: 0;
+}
