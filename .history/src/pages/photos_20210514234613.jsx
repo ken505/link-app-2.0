@@ -12,17 +12,17 @@ const ITEMS = [
     description: "Store Manager Rask",
   },
   {
-    src: "/images/Sakura.JPG",
+    src: "/images/Sakura.jpg",
     alt: "Assistant Store Manager Sakura's photo",
     description: "Assistant Store Manager Sakura",
   },
   {
-    src: "/images/Yukichi.JPG",
+    src: "/images/Yukichi.jpg",
     alt: " Sales Manager Yukichi's photo ",
     description: " Sales Manager Yukichi ",
   },
   {
-    src: "/images/.JPG",
+    src: "/images/.jpg",
     alt: " 's photo ",
     description: "  ",
   },

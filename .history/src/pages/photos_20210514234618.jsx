@@ -22,7 +22,7 @@ const ITEMS = [
     description: " Sales Manager Yukichi ",
   },
   {
-    src: "/images/.JPG",
+    src: "/images/.jpg",
     alt: " 's photo ",
     description: "  ",
   },
