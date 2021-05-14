@@ -44,7 +44,7 @@ export default function Home() {
           return (
             <div className={classes.catImage}>
               {item.src ? (
-                <img
+                <Image
                   key={item.src}
                   src={item.src}
                   alt={item.alt}

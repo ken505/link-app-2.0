@@ -42,9 +42,9 @@ export default function Home() {
       <div>
         {ITEMS.map((item) => {
           return (
-            <div className={classes.catImage}>
+            <img className={classes.catImage}>
               {item.src ? (
-                <img
+                <Image
                   key={item.src}
                   src={item.src}
                   alt={item.alt}

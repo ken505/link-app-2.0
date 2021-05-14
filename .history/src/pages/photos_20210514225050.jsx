@@ -42,14 +42,14 @@ export default function Home() {
       <div>
         {ITEMS.map((item) => {
           return (
-            <div className={classes.catImage}>
+            <img className={classes.catImage}>
               {item.src ? (
-                <img
+                <Image
                   key={item.src}
                   src={item.src}
                   alt={item.alt}
-                  width={256}
-                  height={144}
+                  // width={256}
+                  // height={144}
                 />
               ) : null}
               {item.description ? (
