@@ -97,14 +97,14 @@ const ITEMS = [
     description: " Susisu ",
   },
   {
-    src: "/images/Tarao.JPG",
-    alt: " Tarao's photo ",
-    description: " Tarao ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
 ];
 

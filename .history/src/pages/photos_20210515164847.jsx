@@ -92,19 +92,19 @@ const ITEMS = [
     description: " Sumire ",
   },
   {
-    src: "/images/Susisu.JPG",
-    alt: " Susisu's photo ",
-    description: " Susisu ",
+    src: "/images/Susi.JPG",
+    alt: " Susi's photo ",
+    description: " Susi ",
   },
   {
-    src: "/images/Tarao.JPG",
-    alt: " Tarao's photo ",
-    description: " Tarao ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
 ];
 

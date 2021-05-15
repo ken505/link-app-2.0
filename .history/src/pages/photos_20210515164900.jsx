@@ -102,9 +102,9 @@ const ITEMS = [
     description: " Tarao ",
   },
   {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
 ];
 

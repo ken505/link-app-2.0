@@ -82,29 +82,19 @@ const ITEMS = [
     description: " Sanbo ",
   },
   {
-    src: "/images/Satuki.JPG",
-    alt: " Satuki's photo ",
-    description: " Satuki ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/Sumire.JPG",
-    alt: " Sumire's photo ",
-    description: " Sumire ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/Susisu.JPG",
-    alt: " Susisu's photo ",
-    description: " Susisu ",
-  },
-  {
-    src: "/images/Tarao.JPG",
-    alt: " Tarao's photo ",
-    description: " Tarao ",
-  },
-  {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
 ];
 

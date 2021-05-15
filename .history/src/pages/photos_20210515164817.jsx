@@ -96,16 +96,6 @@ const ITEMS = [
     alt: " Susisu's photo ",
     description: " Susisu ",
   },
-  {
-    src: "/images/Tarao.JPG",
-    alt: " Tarao's photo ",
-    description: " Tarao ",
-  },
-  {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
-  },
 ];
 
 export default function Home() {

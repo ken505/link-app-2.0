@@ -22,89 +22,19 @@ const ITEMS = [
     description: " Sales Manager Yukichi ",
   },
   {
-    src: "/images/Burio.JPG",
-    alt: " Burio's photo ",
-    description: " Burio ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/En.JPG",
-    alt: " En's photo ",
-    description: " En ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
   {
-    src: "/images/Huku.JPG",
-    alt: " Huku's photo ",
-    description: " Huku ",
-  },
-  {
-    src: "/images/Ikura.JPG",
-    alt: " Ikura's photo ",
-    description: " Ikura ",
-  },
-  {
-    src: "/images/Kai.JPG",
-    alt: " Kai's photo ",
-    description: " Kai ",
-  },
-  {
-    src: "/images/Komari.JPG",
-    alt: " Komari's photo ",
-    description: " Komari ",
-  },
-  {
-    src: "/images/Kosen.JPG",
-    alt: " Kosen's photo ",
-    description: " Kosen ",
-  },
-  {
-    src: "/images/Mau.JPG",
-    alt: " Mau's photo ",
-    description: " Mau ",
-  },
-  {
-    src: "/images/Meron.JPG",
-    alt: " Meron's photo ",
-    description: " Meron ",
-  },
-  {
-    src: "/images/Mikan.JPG",
-    alt: " Mikan's photo ",
-    description: " Mikan ",
-  },
-  {
-    src: "/images/Sagawatoko.JPG",
-    alt: " Sagawatoko's photo ",
-    description: " Sagawa Toko ",
-  },
-  {
-    src: "/images/Sanbo.JPG",
-    alt: " Sanbo's photo ",
-    description: " Sanbo ",
-  },
-  {
-    src: "/images/Satuki.JPG",
-    alt: " Satuki's photo ",
-    description: " Satuki ",
-  },
-  {
-    src: "/images/Sumire.JPG",
-    alt: " Sumire's photo ",
-    description: " Sumire ",
-  },
-  {
-    src: "/images/Susisu.JPG",
-    alt: " Susisu's photo ",
-    description: " Susisu ",
-  },
-  {
-    src: "/images/Tarao.JPG",
-    alt: " Tarao's photo ",
-    description: " Tarao ",
-  },
-  {
-    src: "/images/Yuzu.JPG",
-    alt: " Yuzu's photo ",
-    description: " Yuzu ",
+    src: "/images/.JPG",
+    alt: " 's photo ",
+    description: "  ",
   },
 ];
 
