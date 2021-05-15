@@ -1,0 +1,36 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  /* margin: auto; */
+  /* padding: 0 0.5rem; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+}
+.backtolinks {
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.IoIosArrowBack {
+  display: inline-block;
+}
+
+.catImage {
+  display: block;
+  margin: 2rem 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.catImageBorder {
+  border-radius: 15px;
+  border-radius: 15px;
+}
+.catName {
+  margin: 0;
+}

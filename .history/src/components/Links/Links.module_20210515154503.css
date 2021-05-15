@@ -1,0 +1,85 @@
+.aTag {
+  display: fle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  /* リンクコンポーネントのパディング */
+  padding: 1rem;
+
+  border: 2px solid #eaeaea;
+  border-radius: 20px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  height: 16rem;
+  width: 18rem;
+  text-align: center;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.linkGrid {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.linkContent {
+  margin: 0 0.25rem;
+  height: 3rem;
+
+  display: flex;
+
+  /* flex-direction: column; */
+  /* justify-content: center; */
+
+  /* image の縦方向中央配置 */
+  align-items: center; 
+}
+
+.aTag:hover,
+.aTag:focus,
+.aTag:active,
+.image:hover,
+.image:focus,
+.image:active {
+  color: rgb(255, 212, 219);
+  border-color: rgb(255, 212, 219);
+  cursor: pointer;
+}
+
+.linkInnerDescription {
+  font-weight: normal;
+  font-size: 8px;
+}
+
+/* .card h2 { */
+/* margin: 0 0 0 0.3rem; */
+/* [上][右][下][左] */
+/* margin: 0 0 1rem 0;
+  font-size: 1.5rem; */
+/* } */
+
+/* .card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+} */
+
+/* .smallCard {
+  display: inline-block;
+} */
+
+/* 👇これを有効にすると 600px 以下で左に寄っちゃうのなんで？ */
+/* 
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+} */
