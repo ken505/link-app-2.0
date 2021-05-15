@@ -56,8 +56,8 @@ export function Links(item) {
     <div>
     <div className={classes.testOuter}>
       外
-      <div className={classes.testInner}>１</div>
-      <div className={classes.testInner}>２</div>
+      <div className={classes.test}>１</div>
+      <div className={classes.test}>２</div>
     </div>
       {ITEMS.map((item) => {
         return (

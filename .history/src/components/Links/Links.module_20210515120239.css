@@ -16,9 +16,9 @@
 }
 
 .image {
-  width: 50px;
-  height: 50px;
-  /* margin-right: 0.5rem; */
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
   text-align: center;
 }
 
@@ -30,13 +30,13 @@
 
 .titleGrid {
   display: flex;
-  /* flex-direction: column; */
+  display: -webkit-flex;
+  flex-direction: column;
+  background: black;
 }
 
 .testOuter {
-  background: black;
-  flex-direction: column;
-  
+
 }
 
 .testInner {

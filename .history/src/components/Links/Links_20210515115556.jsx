@@ -54,11 +54,7 @@ const ITEMS = [
 export function Links(item) {
   return (
     <div>
-    <div className={classes.testOuter}>
-      外
-      <div className={classes.testInner}>１</div>
-      <div className={classes.testInner}>２</div>
-    </div>
+    
       {ITEMS.map((item) => {
         return (
           <Link href={item.href} key={item.href}>
