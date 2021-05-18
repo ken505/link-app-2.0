@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  margin: 16px 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.icon {
+  border-radius: 9999px;
+}
+
+@media screen and (min-width: 768px) {
+  .aTagGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .aTag {
+    margin: 1rem;
+    height: 9rem;
+    width: 18rem;
+  }
+}
+
