@@ -3,6 +3,7 @@ import classes from "../styles/Home.module.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { Tab } from "src/components/Tab/Tab";
 import { Headline } from "src/components/Headline/Headline";
+import { Footer } from "src/components/Footer/Footer";
 
 const ITEMS = [
   {
@@ -159,6 +160,7 @@ export default function Home() {
       {/* 写真は width300 * height169 */}
       {/* 配置は grid 折り返し的な */}
       {/* スマホサイズで一列固定でいこうかな */}
+      <Footer />
     </div>
   );
 }

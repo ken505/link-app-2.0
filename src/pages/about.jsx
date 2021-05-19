@@ -60,7 +60,7 @@ export default function Home() {
             <li>Mac 💻</li>
           </ul>
         </div>
-        </div>
+      </div>
 
       <div className={classes.aTagGrid}>
         <div className={classes.border}>
@@ -71,9 +71,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-
-
-
+      
     </div>
   );
 }
