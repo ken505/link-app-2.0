@@ -41,8 +41,9 @@ const ITEMS = [
   },
   {
     href: "/photos",
-    title: "Photos",
+    title: "High-reso photos",
     image: <GiCat className={classes.image} />,
+    description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
   },
   {
     href: "https://my-links-phi.vercel.app/posts/aboutMe",

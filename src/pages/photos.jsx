@@ -43,7 +43,7 @@ const ITEMS = [
   },
   {
     src:
-      "https://user-images.githubusercontent.com/68226398/118645214-9cd79780-b819-11eb-80c1-5c0cbfe46aec.JPG",
+      "https://user-images.githubusercontent.com/68226398/118645453-ede78b80-b819-11eb-94c3-1d8a291caf9a.JPG",
     alt: " Ikura's photo ",
     description: " Ikura ",
   },
