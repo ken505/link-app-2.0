@@ -46,8 +46,8 @@ const ITEMS = [
     description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
   },
   {
-    href: "https://my-links-phi.vercel.app/posts/aboutMe",
-    title: "About Ken",
+    href: "/about",
+    title: "About Me",
     image: <IoPersonCircle className={classes.image} />,
   },
 ];

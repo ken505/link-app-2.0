@@ -130,8 +130,8 @@ const ITEMS = [
 export default function Home() {
   return (
     <div className={classes.container}>
-      <Tab title="About Ken" />
-      <Headline title="High - reso photos" />
+      <Tab title="High - reso photos" />
+      <Headline title="High - reso photos 🐈" />
       <Link href="/">
         <h2 className={classes.backtolinks}>
           <IoIosArrowBack className={classes.IoIosArrowBack} />
@@ -147,8 +147,6 @@ export default function Home() {
                   className={classes.catImageBorder}
                   src={item.src}
                   alt={item.alt}
-                  // width={256}
-                  // height={144}
                 />
               ) : null}
               {item.description ? (
