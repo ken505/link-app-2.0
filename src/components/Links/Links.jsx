@@ -32,7 +32,7 @@ const ITEMS = [
   {
     href: "https://note.com/ken505",
     title: "note",
-    image: <NoteSvg className={classes.image}/>,
+    image: <NoteSvg className={classes.image} />,
   },
   {
     href: "https://github.com/ken505",
@@ -71,7 +71,9 @@ export function Links(item) {
                   ) : null}
                 </div>
                 {item.description ? (
-                  <p className={classes.linkInnerDescription}>{item.description}</p>
+                  <p className={classes.linkInnerDescription}>
+                    {item.description}
+                  </p>
                 ) : null}
               </div>
             </a>

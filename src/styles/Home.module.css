@@ -24,6 +24,8 @@
 
 .catImageBorder {
   border-radius: 15px;
+  width: 256px;
+  height: 144px;
 }
 .catName {
   margin: 0;

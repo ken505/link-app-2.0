@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import classes from "../styles/Home.module.css";
 import { IoIosArrowBack } from "react-icons/io";
@@ -7,7 +6,8 @@ import { Headline } from "src/components/Headline/Headline";
 
 const ITEMS = [
   {
-    src: "/images/Rask.JPG",
+    src:
+      "https://user-images.githubusercontent.com/68226398/118645189-977a4d00-b819-11eb-9696-d75e91fef60a.JPG",
     alt: "Store Manager Rask's photo",
     description: "Store Manager Rask",
   },
@@ -124,18 +124,16 @@ export default function Home() {
           return (
             <div key={item.src} className={classes.catImage}>
               {item.src ? (
-                <Image
+                <img
                   className={classes.catImageBorder}
                   src={item.src}
                   alt={item.alt}
-                  width={256}
-                  height={144}
+                  // width={256}
+                  // height={144}
                 />
               ) : null}
               {item.description ? (
-                <p className={classes.catName}>
-                  {item.description}
-                </p>
+                <p className={classes.catName}>{item.description}</p>
               ) : null}
             </div>
           );
