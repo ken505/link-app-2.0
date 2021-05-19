@@ -131,7 +131,7 @@ export default function Home() {
   return (
     <div className={classes.container}>
       <Tab title="About Ken" />
-      <Headline title="Photos" />
+      <Headline title="High - reso photos" />
       <Link href="/">
         <h2 className={classes.backtolinks}>
           <IoIosArrowBack className={classes.IoIosArrowBack} />
