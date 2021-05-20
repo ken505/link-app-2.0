@@ -23,6 +23,11 @@ export function SnsShare(props) {
       <FacebookShareButton url={url} className={classes.iconStyle}>
         <FacebookIcon size={32} round />
       </FacebookShareButton>
+      <FacebookShareCount url={url}>
+        {(shareCount) => (
+          <span className={classes.myShareCountWrapper}>{shareCount}</span>
+        )}
+      </FacebookShareCount>
     </div>
   );
 }
