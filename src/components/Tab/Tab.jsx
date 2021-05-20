@@ -15,7 +15,7 @@ export function Tab(props) {
       <meta property="og:image" content={`${process.env.SITE_URL}/ogp_large.png`} />
       <meta name="twitter:card" content="summary_large_image"/> */}
 
-      {/* <meta name="twitter:card" content="summary" /> */}
+      <meta name="twitter:card" content="summary" />
       {/* <meta name="twitter:site" content="@nytimesbits" /> */}
       {/* <meta name="twitter:creator" content="@nickbilton" /> */}
       <meta property="og:url" content="https://link-app-pink.vercel.app/" />
