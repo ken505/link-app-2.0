@@ -15,17 +15,14 @@ export function Tab(props) {
       <meta property="og:image" content={`${process.env.SITE_URL}/ogp_large.png`} />
       <meta name="twitter:card" content="summary_large_image"/> */}
 
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@nytimesbits" />
-      <meta name="twitter:creator" content="@nickbilton" />
-      <meta
-        property="og:url"
-        content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/"
-      />
+      {/* <meta name="twitter:card" content="summary" /> */}
+      {/* <meta name="twitter:site" content="@nytimesbits" /> */}
+      {/* <meta name="twitter:creator" content="@nickbilton" /> */}
+      <meta property="og:url" content="https://link-app-pink.vercel.app/" />
       <meta property="og:title" content="Ken's links" />
       <meta
         property="og:description"
-        content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling."
+        content="This is a site that collects my various SNS accounts, self-introduction, and high-resolution images of cats 🐈"
       />
       <meta
         property="og:image"

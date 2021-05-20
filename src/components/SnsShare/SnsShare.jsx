@@ -1,7 +1,6 @@
 import {
   FacebookShareButton,
   FacebookIcon,
-  FacebookShareCount,
   TwitterShareButton,
   TwitterIcon,
   LineShareButton,
@@ -11,7 +10,6 @@ import classes from "./SnsShare.module.css";
 
 export function SnsShare(props) {
   const { url, title } = props;
-
   return (
     <div className={classes.iconGrid}>
       <TwitterShareButton url={url} title={title}>
@@ -23,11 +21,6 @@ export function SnsShare(props) {
       <FacebookShareButton url={url} className={classes.iconStyle}>
         <FacebookIcon size={32} round />
       </FacebookShareButton>
-      <FacebookShareCount url={url}>
-        {(shareCount) => (
-          <span className={classes.myShareCountWrapper}>{shareCount}</span>
-        )}
-      </FacebookShareCount>
     </div>
   );
 }
