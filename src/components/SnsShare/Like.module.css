@@ -1,0 +1,10 @@
+.like {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0 0.8rem;
+  border-radius: 6px;
+  background-color: #3e618d;
+  color: white;
+}

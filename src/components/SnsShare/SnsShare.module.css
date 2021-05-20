@@ -1,0 +1,21 @@
+.iconGrid {
+  display: flex;
+}
+
+.iconStyle {
+  margin: 0 0.2rem;
+}
+
+.iconStyle:focus,
+.iconStyle:hover {
+  outline: none;
+  border-radius: 9999px;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+}
+/* 
+@media screen and (min-width: 768px) {
+  .iconGrid {
+    margin-top: 4rem;
+  }
+} */

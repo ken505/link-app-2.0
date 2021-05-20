@@ -2,7 +2,7 @@ import classes from "../styles/Home.module.css";
 import { Tab } from "src/components/Tab/Tab";
 import { Headline } from "src/components/Headline/Headline";
 import { Links } from "src/components/Links/Links";
-import { Footer } from "src/components/Footer/Footer";
+import { SnsShare } from "src/components/SnsShare/SnsShare";
 
 export default function Home() {
   return (
@@ -11,7 +11,12 @@ export default function Home() {
       <Headline title="Welcome to Ken's links !" />
       <img className={classes.icon} src="/images/ken.jpg" />
       <Links />
-      <Footer/>
+      <div className={classes.SnsShareiconGridIndex}>
+        <SnsShare
+          url={"https://link-app-pink.vercel.app/"}
+          title={"Ken's links 🐈"}
+        />
+      </div>
     </div>
   );
 }

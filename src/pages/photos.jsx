@@ -4,6 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { Tab } from "src/components/Tab/Tab";
 import { Headline } from "src/components/Headline/Headline";
 import { Footer } from "src/components/Footer/Footer";
+import { SnsShare } from "src/components/SnsShare/SnsShare";
 
 const ITEMS = [
   {
@@ -157,9 +158,12 @@ export default function Home() {
           );
         })}
       </div>
-      {/* 写真は width300 * height169 */}
-      {/* 配置は grid 折り返し的な */}
-      {/* スマホサイズで一列固定でいこうかな */}
+      <div className={classes.SnsShareiconGridPhotos}>
+        <SnsShare
+          url={"https://link-app-pink.vercel.app/photos"}
+          title={"High - reso photos 🐈"}
+        />
+      </div>
       <Footer />
     </div>
   );
