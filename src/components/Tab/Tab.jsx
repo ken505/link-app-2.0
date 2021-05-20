@@ -29,7 +29,7 @@ export function Tab(props) {
       />
       <meta
         property="og:image"
-        content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg"
+        content="https://user-images.githubusercontent.com/68226398/118977762-7d737280-b9b1-11eb-891d-9c6e1cab1c2f.jpg"
       />
 
       {/* meta tag に props を持たせるとブラウザに怒られる。 */}
