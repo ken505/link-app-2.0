@@ -134,7 +134,7 @@ export default function Home() {
     <div className={classes.container}>
       <Tab
         title="High - reso photos"
-        cardSize="summary"
+        cardSize="summary_large_image"
         ogUrl="https://link-app-pink.vercel.app/photos"
         ogTitle="High - reso photos"
         ogDescription="You can see photo of cute cats in high resolution. 🐈"
