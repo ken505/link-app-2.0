@@ -132,7 +132,14 @@ const ITEMS = [
 export default function Home() {
   return (
     <div className={classes.container}>
-      <Tab title="High - reso photos" />
+      <Tab
+        title="High - reso photos"
+        cardSize="summary"
+        ogUrl="https://link-app-pink.vercel.app/photos"
+        ogTitle="High - reso photos"
+        ogDescription="You can see photo of cute cats in high resolution. 🐈"
+        ogImage="https://user-images.githubusercontent.com/68226398/119086908-32a13b80-ba41-11eb-81d4-df58b3ab0021.jpg"
+      />
       <Headline title="High - reso photos 🐈" />
       <Link href="/">
         <h2 className={classes.backtolinks}>

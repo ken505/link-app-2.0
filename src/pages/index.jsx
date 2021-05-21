@@ -7,7 +7,14 @@ import { SnsShare } from "src/components/SnsShare/SnsShare";
 export default function Home() {
   return (
     <div className={classes.container}>
-      <Tab title="Ken's links" />
+      <Tab
+        title="Ken's links"
+        cardSize="summary"
+        ogUrl="https://link-app-pink.vercel.app/"
+        ogTitle="Ken's links"
+        ogDescription="This is a site that collects my various SNS accounts, self-introduction, and high-resolution images of cats 🐈"
+        ogImage="https://user-images.githubusercontent.com/68226398/118977762-7d737280-b9b1-11eb-891d-9c6e1cab1c2f.jpg"
+      />
       <Headline title="Welcome to Ken's links !" />
       <img className={classes.icon} src="/images/ken.jpg" />
       <Links />
