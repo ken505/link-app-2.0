@@ -1,7 +1,7 @@
 import Link from "next/link";
 import classes from "../styles/Home.module.css";
 import { IoIosArrowBack } from "react-icons/io";
-import { Tab } from "src/components/Tab/Tab";
+import { LocalHead } from "src/components/LocalHead/LocalHead";
 import { Headline } from "src/components/Headline/Headline";
 import { Footer } from "src/components/Footer/Footer";
 import { SnsShare } from "src/components/SnsShare/SnsShare";
@@ -132,7 +132,7 @@ const ITEMS = [
 export default function Home() {
   return (
     <div className={classes.container}>
-      <Tab
+      <LocalHead
         title="High - reso photos"
         cardSize="summary_large_image"
         ogUrl="https://link-app-pink.vercel.app/photos"
@@ -170,6 +170,15 @@ export default function Home() {
           url={"https://link-app-pink.vercel.app/photos"}
           title={"High - reso photos 🐈"}
         />
+        <div
+          class="fb-like"
+          data-href="https://link-app-pink.vercel.app/photos"
+          data-width="200px"
+          data-layout="button_count"
+          data-action="like"
+          data-size="small"
+          data-share="true"
+        ></div>
       </div>
       <Footer />
     </div>

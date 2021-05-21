@@ -1,13 +1,13 @@
 import Link from "next/link";
 import classes from "../styles/Home.module.css";
 import { IoIosArrowBack } from "react-icons/io";
-import { Tab } from "src/components/Tab/Tab";
+import { LocalHead } from "src/components/LocalHead/LocalHead";
 import { Headline } from "src/components/Headline/Headline";
 
 export default function Home() {
   return (
     <div className={classes.container}>
-      <Tab title="About Me" />
+      <LocalHead title="About Me" />
       <Headline title="About Me" />
       <Link href="/">
         <h2 className={classes.backtolinks}>
@@ -71,7 +71,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 }
