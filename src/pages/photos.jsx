@@ -173,7 +173,7 @@ export default function Home() {
         <div
           class="fb-like"
           data-href="https://link-app-pink.vercel.app/photos"
-          data-width="200px"
+          data-width=""
           data-layout="button_count"
           data-action="like"
           data-size="small"
