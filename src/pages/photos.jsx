@@ -174,10 +174,10 @@ export default function Home() {
           class="fb-like"
           data-href="https://link-app-pink.vercel.app/photos"
           data-width=""
-          data-layout="button_count"
+          data-layout="box_count"
           data-action="like"
           data-size="small"
-          data-share="true"
+          data-share="false"
         ></div>
       </div>
       <Footer />

@@ -1,5 +1,6 @@
 .iconGrid {
   display: flex;
+  align-items: center;
 }
 
 .iconStyle {
