@@ -174,7 +174,7 @@ export default function Home() {
           class="fb-like"
           data-href="https://link-app-pink.vercel.app/photos"
           data-width=""
-          data-layout="box_count"
+          data-layout="button_count"
           data-action="like"
           data-size="small"
           data-share="false"

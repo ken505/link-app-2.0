@@ -17,7 +17,7 @@ class MyDocument extends Document {
             defer
             crossorigin="anonymous"
             src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0&appId=251942016689509&autoLogAppEvents=1"
-            nonce="wi8M0NjS"
+            nonce="uEtMtAiv"
           ></script>
           <Main />
           <NextScript />
