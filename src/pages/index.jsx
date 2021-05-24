@@ -15,6 +15,7 @@ export default function Home() {
         ogDescription="This is a site that collects my various SNS accounts, self-introduction, and high-resolution images of cats 🐈"
         ogImage="https://user-images.githubusercontent.com/68226398/118977762-7d737280-b9b1-11eb-891d-9c6e1cab1c2f.jpg"
       />
+      {/* <h1 className="text-red-500">hello world</h1> */}
       <Headline title="Welcome to Ken's links !" />
       <img className={classes.icon} src="/images/ken.jpg" />
       <Links />
