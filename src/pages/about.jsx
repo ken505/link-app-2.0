@@ -64,6 +64,19 @@ export default function Home() {
 
       <div className={classes.aTagGrid}>
         <div className={classes.border}>
+          <h2 className={classes.title}>The app I made</h2>
+          <ul className={classes.discription}>
+            <li>
+              <a href="https://count-app.vercel.app/">
+                Count-App 🔢
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className={classes.aTagGrid}>
+        <div className={classes.border}>
           <h2 className={classes.title}>Personal infomation</h2>
           <ul className={classes.discription}>
             <li>Address: Hyogo</li>
@@ -74,3 +87,5 @@ export default function Home() {
     </div>
   );
 }
+
+// The app I made
