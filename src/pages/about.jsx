@@ -54,6 +54,9 @@ export default function Home() {
               <a href="https://counter-app-theta.vercel.app/">Todo-app ✍️</a>
             </li>
             <li>
+              <a href="https://my-auth-rho.vercel.app/">My-Auth 🔑</a>
+            </li>
+            <li>
               <a href="https://count-app.vercel.app/">Count-App 🔢</a>
             </li>
           </ul>
