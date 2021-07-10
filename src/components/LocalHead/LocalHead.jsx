@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export function LocalHead(props) {
+export const LocalHead = (props) => {
   return (
     <Head>
       <title>{props.title}</title>
@@ -12,4 +12,4 @@ export function LocalHead(props) {
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );
-}
+};

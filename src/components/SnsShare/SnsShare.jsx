@@ -8,7 +8,7 @@ import {
 } from "react-share";
 import classes from "./SnsShare.module.css";
 
-export function SnsShare(props) {
+export const SnsShare = (props) => {
   const { url, title } = props;
   return (
     <div className={classes.iconGrid}>
@@ -23,4 +23,4 @@ export function SnsShare(props) {
       </FacebookShareButton>
     </div>
   );
-}
+};

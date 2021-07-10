@@ -1,6 +1,6 @@
 import classes from "./Footer.module.css";
 
-export function Footer() {
+export const Footer = () => {
   return (
     <footer className={classes.footer}>
       <a
@@ -8,9 +8,9 @@ export function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className={classes.collaboration}>Collaboration with&nbsp;</span> ねこcafe
-        Salon de Kei 🐈
+        <span className={classes.collaboration}>Collaboration with&nbsp;</span>{" "}
+        ねこcafe Salon de Kei 🐈
       </a>
     </footer>
   );
-}
+};

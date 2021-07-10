@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { LocalHead } from "src/components/LocalHead/LocalHead";
 import { Headline } from "src/components/Headline/Headline";
 
-export default function Home() {
+const About = () => {
   return (
     <div className={classes.container}>
       <LocalHead title="About Me" />
@@ -121,6 +121,5 @@ export default function Home() {
       </div>
     </div>
   );
-}
-
-// The app I made
+};
+export default About;

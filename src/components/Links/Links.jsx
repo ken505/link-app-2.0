@@ -52,7 +52,7 @@ const ITEMS = [
   },
 ];
 // リンクタグの中にはチルドレンは一つ、っていうルールなのね。。
-export function Links(item) {
+export const Links = (item) => {
   return (
     <div className={classes.aTagGrid}>
       {ITEMS.map((item) => {
@@ -83,7 +83,7 @@ export function Links(item) {
       })}
     </div>
   );
-}
+};
 // css も map で回ってるけどこれはいいのか？？
 
 // 試行錯誤の記録😂

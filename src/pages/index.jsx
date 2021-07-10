@@ -4,7 +4,7 @@ import { Headline } from "src/components/Headline/Headline";
 import { Links } from "src/components/Links/Links";
 import { SnsShare } from "src/components/SnsShare/SnsShare";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={classes.container}>
       <LocalHead
@@ -27,7 +27,8 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+export default Home;
 
 // <Tab title="Ken's links" name="link" content="Link collection"/>
 // metatag に props を持たせると、ブラウザ側で怒られる。
